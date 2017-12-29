@@ -105,6 +105,9 @@ else()
   endif()
 endif()
 
+SET (BOOST_ROOT "D:/boost_1_65_1")
+SET (BOOST_LIBRARYDIR "D:/boost_1_65_1/stage/lib")
+
 if(STATIC)
   set(Boost_USE_STATIC_LIBS ON)
   set(Boost_USE_STATIC_RUNTIME ON)
